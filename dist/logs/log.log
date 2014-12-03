@@ -1,0 +1,19 @@
+2014-09-09 17:12:31 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:560)) - [INFO] - unsupported/disabled operation: EI
+2014-09-09 17:12:43 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:560)) - [INFO] - unsupported/disabled operation: EI
+2014-09-09 17:12:55 [SwingWorker-pool-2-thread-1] (com.lilonghua.poi.lucene.LuceneWORDDocument.addContent(LuceneWORDDocument.java:360)) - [INFO] - Error: The document is read error and will not be indexed.java.io.IOException: Stream Closedjava.io.IOException: Invalid header signature; read 0x6576206C6D783F3C, expected 0xE11AB1A1E011CFD0
+2014-09-09 17:12:55 [SwingWorker-pool-2-thread-1] (com.lilonghua.poi.lucene.LuceneWORDDocument.addContent(LuceneWORDDocument.java:363)) - [INFO] - Error: The document is read error and will not be indexed.java.io.IOException: Invalid header signature; read 0x6576206C6D783F3C, expected 0xE11AB1A1E011CFD0
+2014-09-09 17:12:57 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.util.PDFStreamEngine.processOperator(PDFStreamEngine.java:560)) - [INFO] - unsupported/disabled operation: EI
+2014-09-09 17:13:39 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary(BaseParser.java:281)) - [WARN] - Invalid dictionary, found: 's' but expected: '/'
+2014-09-09 17:13:39 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary(BaseParser.java:368)) - [WARN] - Bad Dictionary Declaration org.apache.pdfbox.io.PushBackInputStream@482ae5d1
+2014-09-09 17:13:39 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary(BaseParser.java:281)) - [WARN] - Invalid dictionary, found: '(' but expected: '/'
+2014-09-09 17:13:39 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary(BaseParser.java:368)) - [WARN] - Bad Dictionary Declaration org.apache.pdfbox.io.PushBackInputStream@482ae5d1
+2014-09-09 17:13:40 [SwingWorker-pool-2-thread-1] (org.apache.pdfbox.pdfparser.BaseParser.parseCOSDictionary(BaseParser.java:281)) - [WARN] - Invalid dictionary, found: 's' but expected: '/'
+2014-09-09 17:14:39 [SwingWorker-pool-2-thread-1] (com.lilonghua.lucene.ComplexFiles.indexFiles(ComplexFiles.java:223)) - [INFO] - 索引完毕
+2014-09-09 17:16:41 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:158)) - [INFO] - 当前检索的关键词为：{0}(+contents:李 +contents:龙华)
+2014-09-09 17:16:41 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:167)) - [INFO] - 总返回条数---{0}2
+2014-09-09 17:17:27 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:158)) - [INFO] - 当前检索的关键词为：{0}contents:对象
+2014-09-09 17:17:27 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:167)) - [INFO] - 总返回条数---{0}9
+2014-09-09 17:17:45 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:158)) - [INFO] - 当前检索的关键词为：{0}contents:立体匹配
+2014-09-09 17:17:45 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:167)) - [INFO] - 总返回条数---{0}5
+2014-09-09 17:18:01 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:158)) - [INFO] - 当前检索的关键词为：{0}contents:中国
+2014-09-09 17:18:01 [AWT-EventQueue-0] (com.lilonghua.lucene.LuceneSearch.searchFiles(LuceneSearch.java:167)) - [INFO] - 总返回条数---{0}4
